@@ -21,13 +21,13 @@ body {
 }
 .logo {
   /* border: 1px solid black; */
-  height: 2.2rem;
+  height: 2.4rem;
 }
 .header-heading {
   /* border: 1px solid black; */
   color: #fff;
-  font-weight: 600;
-  font-size: 1.8rem;
+  font-weight: 550;
+  font-size: 1.3rem;
   transition: all 0.3s;
 }
 
