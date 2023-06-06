@@ -47,7 +47,7 @@ body {
   width: 100%;
 }
 
-#messageInput {
+#user-input {
   flex: 1;
   padding: 10px;
   border: none;
@@ -65,4 +65,11 @@ body {
   padding: 10px 20px;
   margin-left: 10px;
   cursor: pointer;
+}
+.message {
+  text-transform: capitalize;
+  background-color: #ccc;
+  margin-right: 10px;
+  background-color: #f2f2f2;
+  padding: 10px;
 }

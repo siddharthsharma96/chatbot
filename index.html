@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="./css/index.css" />
     <script src="index.js" defer></script>
     <title>Chat Interface</title>
+    <!-- Content Security Policy -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self';"
+    />
+    <!-- <script src="sanitize-html.js" defer></script> -->
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/sanitize-html/2.3.3/sanitize-html.min.js"
+      defer
+    ></script> -->
   </head>
   <body>
     <header class="header">
@@ -17,7 +27,7 @@
     <main id="messageContainer"></main>
 
     <form id="messageForm">
-      <input type="text" id="messageInput" placeholder="Type your message" />
+      <input type="text" id="user-input" placeholder="Type your message" />
       <button class="submit" type="submit">Send</button>
     </form>
   </body>
