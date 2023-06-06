@@ -36,5 +36,14 @@ function sendMessage(e) {
     // Clear the input field
     messageInput.value = "";
     messageContainer.scrollTop = messageContainer.scrollHeight;
+    if (userInput === "hi" || userInput === "hey" || userInput === "hello") {
+      // messageElement.textContent = "hello";
+      const messageElement1 = document.createElement("div");
+      messageElement1.classList.add("message1");
+      messageElement1.textContent = "hello";
+      messageContainer.appendChild(messageElement);
+      messageContainer.appendChild(messageElement1);
+      messageContainer.scrollTop = messageContainer.scrollHeight;
+    }
   }
 }
